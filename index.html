@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 04 - PC01 Javascript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!--Formulario para Gestión de Calificaciones-->
+    <form class="formNotas">
+        <h1>Gestor de Calificaciones</h1>
+        <br>
+        <div id="contenedorEstudiantes" class="contenedor-nota">
+            <h3>Lista de Estudiantes:</h3>
+            <ul id="listaEstudiantes" style="list-style: none;">
+                <!-- La lista de estudiantes inicial se mostrará aquí -->
+            </ul>
+        </div>
+        <div class="contenedor-input">
+            <!-- Campo para agregar un nuevo estudiante -->
+            <label for="nombreEstudiante">Nombre del estudiante:</label>
+            <input type="text" id="nombreEstudiante" class="inputCalificacion" placeholder="Nombre del estudiante">
+            <br><br>
+
+            <label for="calificaciones">Sus 4 calificaciones (separadas por comas):</label>
+            <input type="text" id="calificaciones" class="inputCalificacion" placeholder="Ej: 8,10,12,16">
+            <br><br>
+        </div>
+        <div class="contenedor-boton">
+            <!-- Botones de acción -->
+            <button type="button" class="btn-1" onclick="agregarEstudiante()">Agregar Estudiante</button>
+            <button type="button" class="btn-2" onclick="calcularPromedioGeneral()">Calcular Promedio General</button>
+            <button type="button" class="btn-3" onclick="mostrarEstudiantes()">Mostrar Clasificaciones</button>
+            <button type="button" class="btn-4" onclick="mostrarLista()">Mostrar Lista de Estudiantes</button>
+            <button type="button" class="btn-5" onclick="reiniciarFormulario2()">Reiniciar</button>
+        </div>
+        <br><br>
+        <!--Mostrando los resultados de algunas funciones-->
+        <div id="resultados" class="resultado-muestra"></div>
+
+        <!--LLamando a las funciones Javascript-->
+        <script src="calificaciones.js"></script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1 {
+    text-align: center;
+}
+
+.formTareas {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #fbfbf8; 
+    margin: 20px; 
+}
+
+.formNotas {
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    background-color: #fbfbf8; 
+    margin: 20px; 
+}
+
+
+/* Estilo para el contenedor en rejilla */
+.contenedor-tarea {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre columnas */
+    margin-bottom: 20px; /* Espacio debajo de la rejilla */
+}
+
+.contenedor-nota {
+    display: grid;
+    grid-template-columns: 1fr; /* Dos columnas de igual tamaño */
+    margin-bottom: 20px; /* Espacio debajo de la rejilla */
+    text-align: center;
+}
+
+.contenedor-input{
+    text-align: center;
+}
+/* Estilo para cada columna de tareas */
+.tareas-columna {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* Fondo blanco para las columnas */
+}
+
+.tareas-columna {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* Fondo blanco para las columnas */
+}
+
+.contenedor-boton{
+    text-align: center; 
+}
+
+.inputTarea-1 {
+    width: 79.5%;
+    padding: 2px;
+}
+
+.inputTarea-2 {
+    width: 56%;
+    padding: 2px;
+}
+
+.completado {
+    color: rgb(255, 0, 0);
+}
+
+.btn-1{
+    background-color: #ff5328;
+    color: #340d03;
+    border: none;
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 5px; /* Espacio alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-1:hover {
+    background-color: #340d03;
+    color: #ff5328;
+}
+
+.btn-2{
+    background-color: #fff128;
+    color: #312f04; 
+    border: none;
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 5px; /* Espacio alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-2:hover {
+    background-color: #312f04;
+    color: #fff128; 
+}
+
+.btn-3{
+    background-color: #81e03d;
+    color: #1e320f;
+    border: none;
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 5px; /* Espacio alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-3:hover {
+    background-color: #1e320f;
+    color: #81e03d;
+}
+
+.btn-4{
+    background-color: #45abe1;
+    color: #142e3c;
+    border: none;
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 5px; /* Espacio alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-4:hover {
+    background-color: #142e3c;
+    color: #45abe1;
+}
+
+.btn-5{
+    background-color: #6a52d1;
+    color: #2b2156;
+    border: none;
+    padding: 5px 10px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    font-size: 14px; /* Tamaño de fuente */
+    margin: 5px; /* Espacio alrededor */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.btn-5:hover {
+    background-color: #2b2156;
+    color: #6a52d1;
+}
+
+.resultado-muestra{
+    text-align: center;
+    border: none;
+    background-color: #cecece;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 15px;
+}
